@@ -1,6 +1,6 @@
 # NodeAuthDemo
 
-I have created a auth app which contains 2 pages i.e. /login, /signup.
+This authentication app project contains two pages i.e. /login, /signup.
 
 In signup, user can register, on click of submit one OTP will be sent on the provided email address and the details will be saved inside database. Once it is verified, user will be redirected to the home page.
 
@@ -18,9 +18,6 @@ Repository: GitHub
 
 Deployment Tool: Heroku
 
-
-I have committed the changes in GIT and deployed it on Heroku.
-Please find below the URL details:
 
 Git URL: https://github.com/nidhirajkotia/NodeAuthDemo
 
