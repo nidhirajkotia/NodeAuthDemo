@@ -93,6 +93,7 @@ function deleteEmp() {
 function verifykUser(email, password) {
     return new Promise(function(resolve, reject) {
         let query = "select * from employee where email='" + email + "' and password='" + password + "';";
+
         client.query(query, async(err, resp) => {
             if (err) reject({ status: 500, message: "fail" })
 

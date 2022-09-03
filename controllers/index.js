@@ -69,7 +69,7 @@ exports.setactive = async(req, res) => {
         }
         let setActive = await setActiveUser(email, otp);
 
-        res.render('home',{email: email});
+        res.redirect('home');
     } catch (e) {
         console.log(e);
         throw e;
@@ -91,4 +91,9 @@ exports.resendOTP = async(req, res) => {
         console.log(e);
         throw e;
     }
+}
+
+
+exports.home = (req, res) => {
+    res.render("home");
 }

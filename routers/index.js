@@ -21,5 +21,8 @@ module.exports = app => {
     // Resend OTP 
     router.post("/resendOTP", users.resendOTP);
 
+    // Home 
+    router.get("/home", users.home);
+
     app.use(router);
 };
