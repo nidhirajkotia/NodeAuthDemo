@@ -11,8 +11,11 @@ In login, user can login via registered credentials. On successful login, user w
 Technologies Used:
 
 Backend: Node JS, Express JS
+
 Database : Postgres
-REpository: GitHub
+
+Repository: GitHub
+
 Deployment Tool: Heroku
 
 
